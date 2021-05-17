@@ -15,6 +15,6 @@ const result=value1/(value2*value2);
 res.send(`the result is ${result} `);
     })
 
-app.listen(7000,function(){
+app.listen(7000,()=>{
     console.log("app is listening at 7000");
-})
+});
